@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i" rel="stylesheet" type='text/css'> 
+</head>
+<body>
+	<header class="header">
+		<div class="navbar flex-hor-center">
+			<nav class="navbar__item navbar__item-index flex-all-center">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo header__logo"></a>
+				<img src="img/phone.png" alt="phone" class="phone__img">
+				<p class="header__text_left header__text_white header__text_phone"><span class="span_phone">8-495-</span>668-07-17</p>
+				<div class="header__text_center-wrap flex-ver-center">
+					<a href="supplies.html" class="header__text_right header__text_white header__text_center header__link header__text_center_black">Линия поставок</a>
+					<a href="news.html" class="header__text_white header__text_center header__link header__text_center_black">Новости</a>
+					<a href="about_us.html" class="header__text_left header__text_white header__text_center header__link header__text_center_black">Контакты</a>
+				</div>
+				<img src="img/search.png" alt="search" class="search__img nav__search__img header__nav_img">
+				<a href="#" class="header__nav_text header__text_white header__text_right header__link">Поиск</a>
+				<img src="img/login.png" alt="login" class="login__img header__nav_img">
+				<div class="login-wrap z-index2">
+					<a href="login.html" class="header__nav_text header__text_white header__login header__text_right header__link">Вход</a>
+					<div class="login-up">
+						<p class="login-up__headline">Войти в личный кабинет</p>
+						<form class="registr__item">
+							<input type="text" placeholder="E-mail или телефон" class="input personal__input registr__input border-bot_black">
+							<input type="password" placeholder="Пароль" class="input personal__input registr__input border-bot_black">
+							<div class="btn-wrap">
+								<div class="btn registr__btn">
+									<p class="btn_text personal__btn_text">Войти</p>
+								</div>
+							</div>
+							<a href="recovery.html"><p class="header__login-link detail clear-left">Забыли пароль?</p></a>
+							<a href="registr.html"><p class="header__login-reg detail clear-left">Регистрация</p></a>
+						</form>
+					</div>
+				</div>
+				<img src="img/basket.png" alt="basket" class="basket__img header__nav_img">
+				<a href="basket.html" class="header__nav_text header__text_white header__text_right header__link">Корзина</a>
+			</nav>
+		</div>
+		<div class="section__bg-wrap flex-all-center z-index-1">
+			<img src="img/nav-bg.png" alt="nav_bg" class="section__bg">
+		</div>
+		<div class="nav-border z-index-2"></div>
+	</header>
+
+	<section class="personal">
+		<h1 class="section__headline personal__headline">Личный кабинет</h1>
+		<div class="container cf">
+			<aside class="col-md-3 personal__menu">
+				<div class="personal__toggle personal__toggle_active flex-ver-center personal__orders">
+					<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёС‡РЅС‹Р№-РєР°Р±РёРЅРµС‚-(Р·Р°РєР°Р·С‹)" transform="translate(-149.000000, -174.000000)" fill="#EF524D" fill-rule="nonzero">
+					            <g id="shopping-cart-(6)" transform="translate(149.000000, 174.000000)">
+					                <path class="personal__toggle-path" d="M4.51065065,8.66677951 L4.5112915,8.66677951 C4.51182555,8.66677951 4.51235963,8.66666667 4.51289368,8.66666667 L11.9492187,8.66666667 C12.1322937,8.66666667 12.2932587,8.53835938 12.3435669,8.35238716 L13.9841919,2.28572049 C14.0195465,2.15493056 13.9947662,2.0143229 13.9173279,1.90576389 C13.8397827,1.79720488 13.7185516,1.73333333 13.5898437,1.73333333 L3.5647278,1.73333333 L3.27153014,0.339331604 C3.22976686,0.141059013 3.06335449,-2.84217094e-14 2.87109375,-2.84217094e-14 L0.41015625,-2.84217094e-14 C0.183609016,-2.84217094e-14 0,0.193984382 0,0.433333333 C0,0.672682284 0.183609016,0.866666667 0.41015625,0.866666667 L2.54211426,0.866666667 C2.59402467,1.11368923 3.94519043,7.53763022 4.02294922,7.90720488 C3.5870514,8.10739583 3.28125,8.56657117 3.28125,9.1 C3.28125,9.81680556 3.83325195,10.4 4.51171875,10.4 L11.9492187,10.4 C12.175766,10.4 12.359375,10.2060156 12.359375,9.96666667 C12.359375,9.72731772 12.175766,9.53333333 11.9492187,9.53333333 L4.51171875,9.53333333 C4.28559876,9.53333333 4.1015625,9.33889756 4.1015625,9.1 C4.1015625,8.86144099 4.28495788,8.66734376 4.51065065,8.66677951 Z M13.0460663,2.6 L11.6397858,7.8 L4.84069824,7.8 L3.74694824,2.6 L13.0460663,2.6 Z" id="Shape"></path>
+					                <path class="personal__toggle-path" d="M4.1015625,11.7 C4.1015625,12.4168056 4.65356445,13 5.33203125,13 C6.01049805,13 6.5625,12.4168056 6.5625,11.7 C6.5625,10.9831944 6.01049805,10.4 5.33203125,10.4 C4.65356445,10.4 4.1015625,10.9831944 4.1015625,11.7 Z M5.33203125,11.2666667 C5.55815124,11.2666667 5.7421875,11.4611024 5.7421875,11.7 C5.7421875,11.9388976 5.55815124,12.1333333 5.33203125,12.1333333 C5.10591126,12.1333333 4.921875,11.9388976 4.921875,11.7 C4.921875,11.4611024 5.10591126,11.2666667 5.33203125,11.2666667 Z" id="Shape"></path>
+					                <path class="personal__toggle-path" d="M9.8984375,11.7 C9.8984375,12.4168056 10.4504395,13 11.1289062,13 C11.807373,13 12.359375,12.4168056 12.359375,11.7 C12.359375,10.9831944 11.807373,10.4 11.1289062,10.4 C10.4504395,10.4 9.8984375,10.9831944 9.8984375,11.7 Z M11.1289062,11.2666667 C11.3550262,11.2666667 11.5390625,11.4611024 11.5390625,11.7 C11.5390625,11.9388976 11.3550262,12.1333333 11.1289062,12.1333333 C10.9027863,12.1333333 10.71875,11.9388976 10.71875,11.7 C10.71875,11.4611024 10.9027863,11.2666667 11.1289062,11.2666667 Z" id="Shape"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+					<p class="personal__toggle-text">Заказы</p>
+				</div>
+				<div class="personal__toggle flex-ver-center personal__counterparties">
+					<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёС‡РЅС‹Р№-РєР°Р±РёРЅРµС‚-(Р·Р°РєР°Р·С‹)" transform="translate(-151.000000, -213.000000)" fill="#3A5874" fill-rule="nonzero">
+					            <g id="profile-(3)" transform="translate(151.000000, 213.000000)">
+					                <path class="personal__toggle-path" d="M6.47210993,7.28674164 C8.3913617,7.28674164 9.9480656,5.65478253 9.9480656,3.64280297 C9.9480656,1.63082342 8.39133865,0.010027881 6.47210993,0.010027881 C4.55288121,0.010027881 2.99615426,1.64198699 2.99615426,3.64280297 C2.99615426,5.64361896 4.55285816,7.28674164 6.47210993,7.28674164 Z M6.47210993,0.960139405 C7.87954433,0.960139405 9.03110461,2.16732714 9.03110461,3.64280297 C9.03110461,5.11827881 7.87954433,6.32544238 6.47210993,6.32544238 C5.06467553,6.32544238 3.91311525,5.11825465 3.91311525,3.64277881 C3.91311525,2.16730297 5.06465248,0.960139405 6.47210993,0.960139405 Z" id="Shape"></path>
+					                <path class="personal__toggle-path" d="M0.458480496,12.9761989 L12.5283812,12.9761989 C12.7842784,12.9761989 12.9868617,12.7638253 12.9868617,12.4955613 C12.9868617,9.98056877 11.0356401,7.92386245 8.62591489,7.92386245 L4.36094681,7.92386245 C1.96189362,7.92386245 0,9.96938104 0,12.4955613 C0,12.7638253 0.202583333,12.9761989 0.458480496,12.9761989 Z M4.36094681,8.88513755 L8.62591489,8.88513755 C10.3745532,8.88513755 11.8139805,10.2488327 12.0379078,12.0148996 L0.948953901,12.0148996 C1.17285816,10.2600204 2.61230851,8.88513755 4.36094681,8.88513755 Z" id="Shape"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+					<p class="personal__toggle-text">Контрагенты</p>
+				</div>
+				<div class="personal__toggle flex-ver-center personal__personal_data">
+					<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёС‡РЅС‹Р№-РєР°Р±РёРЅРµС‚-(Р·Р°РєР°Р·С‹)" transform="translate(-152.000000, -251.000000)">
+					            <g id="shopping-list" transform="translate(152.000000, 251.000000)">
+					                <path class="personal__toggle-path" d="M5.36616667,5.7628125 C5.18741667,5.58 4.89683333,5.5790625 4.71716667,5.761875 L3.20833333,7.3059375 L2.61616667,6.699375 C2.43741667,6.5165625 2.14683333,6.5165625 1.96808333,6.699375 C1.78933333,6.8821875 1.78933333,7.179375 1.96808333,7.3621875 L2.88475,8.2996875 C2.97366667,8.3915625 3.091,8.4375 3.20833333,8.4375 C3.32566667,8.4375 3.443,8.3915625 3.53283333,8.300625 L5.36616667,6.425625 C5.54491667,6.2428125 5.54491667,5.945625 5.36616667,5.7628125 Z" id="Path" fill="#FFFFFF"></path>
+					                <path class="personal__toggle-path" d="M5.36616667,9.5128125 C5.18741667,9.33 4.89683333,9.3290625 4.71716667,9.511875 L3.20833333,11.0559375 L2.61616667,10.4503125 C2.43741667,10.2675 2.14683333,10.2675 1.96808333,10.4503125 C1.78933333,10.633125 1.78933333,10.9303125 1.96808333,11.113125 L2.88475,12.050625 C2.97366667,12.1415625 3.091,12.1875 3.20833333,12.1875 C3.32566667,12.1875 3.443,12.1415625 3.53283333,12.050625 L5.36616667,10.175625 C5.54491667,9.9928125 5.54491667,9.695625 5.36616667,9.5128125 Z" id="Path" fill="#FFFFFF"></path>
+					                <path class="personal__toggle-path" d="M8.70833333,6.5625 L6.875,6.5625 C6.622,6.5625 6.41666667,6.7725 6.41666667,7.03125 C6.41666667,7.29 6.622,7.5 6.875,7.5 L8.70833333,7.5 C8.96133333,7.5 9.16666667,7.29 9.16666667,7.03125 C9.16666667,6.7725 8.96133333,6.5625 8.70833333,6.5625 Z" id="Path" fill="#FFFFFF"></path>
+					                <path class="personal__toggle-path" d="M8.70833333,10.3125 L6.875,10.3125 C6.622,10.3125 6.41666667,10.5225 6.41666667,10.78125 C6.41666667,11.04 6.622,11.25 6.875,11.25 L8.70833333,11.25 C8.96133333,11.25 9.16666667,11.04 9.16666667,10.78125 C9.16666667,10.5225 8.96133333,10.3125 8.70833333,10.3125 Z" id="Path" fill="#FFFFFF"></path>
+					                <path class="personal__toggle-path" d="M10.0833333,1.875 L8.25,1.875 L8.25,1.40625 C8.25,1.1475 8.04466667,0.9375 7.79166667,0.9375 L6.79708333,0.9375 C6.60733333,0.391875 6.09766667,0 5.5,0 C4.90233333,0 4.39266667,0.391875 4.20291667,0.9375 L3.20833333,0.9375 C2.95533333,0.9375 2.75,1.1475 2.75,1.40625 L2.75,1.875 L0.916666667,1.875 C0.411583333,1.875 0,2.2959375 0,2.8125 L0,14.0625 C0,14.5790625 0.411583333,15 0.916666667,15 L10.0833333,15 C10.5884167,15 11,14.5790625 11,14.0625 L11,2.8125 C11,2.2959375 10.5884167,1.875 10.0833333,1.875 Z M3.66666667,1.875 L4.58333333,1.875 C4.83633333,1.875 5.04166667,1.665 5.04166667,1.40625 C5.04166667,1.1475 5.247,0.9375 5.5,0.9375 C5.753,0.9375 5.95833333,1.1475 5.95833333,1.40625 C5.95833333,1.665 6.16366667,1.875 6.41666667,1.875 L7.33333333,1.875 L7.33333333,2.8125 L3.66666667,2.8125 L3.66666667,1.875 Z M10.0833333,14.0625 L0.916666667,14.0625 L0.916666667,2.8125 L2.75,2.8125 L2.75,3.28125 C2.75,3.54 2.95533333,3.75 3.20833333,3.75 L7.79166667,3.75 C8.04466667,3.75 8.25,3.54 8.25,3.28125 L8.25,2.8125 L10.0833333,2.8125 L10.0833333,14.0625 Z" id="Shape" fill="#3A5874" fill-rule="nonzero"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+					<p class="personal__toggle-text">Личные данные</p>
+				</div>
+				<div class="personal__toggle flex-ver-center personal__change_pass">
+					<svg width="11px" height="13px" viewBox="0 0 11 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёС‡РЅС‹Р№-РєР°Р±РёРЅРµС‚-(Р·Р°РєР°Р·С‹)" transform="translate(-152.000000, -291.000000)" fill="#3A5874">
+					            <g id="password" transform="translate(152.000000, 291.000000)">
+					                <ellipse class="personal__toggle-path" id="Oval" cx="8.29910714" cy="8.78515625" rx="1" ry="1"></ellipse>
+					                <path class="personal__toggle-path" d="M10.5089286,9.19140625 C10.7801473,9.19140625 11,8.96405859 11,8.68359375 L11,6.8046875 C11,5.68465625 10.1188214,4.7734375 9.03571429,4.7734375 L8.44552009,4.7734375 L8.44552009,2.98253516 C8.44552009,1.33795898 7.12375223,0 5.49909152,0 C3.8744308,0 2.55266295,1.33795898 2.55266295,2.98253516 L2.55266295,4.7734375 L1.96428571,4.7734375 C0.881178571,4.7734375 0,5.68465625 0,6.8046875 L0,10.96875 C0,12.0887813 0.881178571,13 1.96428571,13 L9.03571429,13 C10.1188214,13 11,12.0887813 11,10.96875 C11,10.6882852 10.7801473,10.4609375 10.5089286,10.4609375 C10.2377098,10.4609375 10.0178571,10.6882852 10.0178571,10.96875 C10.0178571,11.5287656 9.57726786,11.984375 9.03571429,11.984375 L1.96428571,11.984375 C1.42273214,11.984375 0.982142857,11.5287656 0.982142857,10.96875 L0.982142857,6.8046875 C0.982142857,6.24467187 1.42273214,5.7890625 1.96428571,5.7890625 L9.03571429,5.7890625 C9.57726786,5.7890625 10.0178571,6.24467187 10.0178571,6.8046875 L10.0178571,8.68359375 C10.0178571,8.96405859 10.2377098,9.19140625 10.5089286,9.19140625 Z M7.46337723,4.7734375 L3.5348058,4.7734375 L3.5348058,2.98253516 C3.5348058,1.89797461 4.41598437,1.015625 5.49909152,1.015625 C6.58219866,1.015625 7.46337723,1.89797461 7.46337723,2.98253516 L7.46337723,4.7734375 Z" id="Shape" fill-rule="nonzero"></path>
+					                <ellipse class="personal__toggle-path" id="Oval" cx="4.59151786" cy="8.78515625" rx="1" ry="1"></ellipse>
+					                <ellipse class="personal__toggle-path" id="Oval" cx="2.75" cy="8.78515625" rx="1" ry="1"></ellipse>
+					                <ellipse class="personal__toggle-path" id="Oval" cx="6.43303571" cy="8.78515625" rx="1" ry="1"></ellipse>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+					<p class="personal__toggle-text">Сменить пароль</p>
+				</div>
+			</aside>
+			<div class="col-md-9 personal__item personal__content personal__content_none personal__item_active border-left_black">
+				<div class="prod-items__table-wrap personal__table-wrap">
+					<table class="personal__table table">
+						<thead>
+							<tr class="prod-items__head personal__head">
+								<th class="personal__product">
+									<div class="flex-ver-center">
+										<p class="item-mess_text prod-table__product-head">Товар</p>
+									</div>
+								</th>
+								<th class="personal__head-text-wrap">
+									<p class="lab_products__head-text personal__head-text item-mess_text prod-table__head-opac">Контрагент</p>
+								</th>
+								<th class="personal__head-text-wrap">
+									<p class="lab_products__head-text personal__head-text item-mess_text prod-table__head-opac">Общая стоимость</p>
+								</th>
+								<th class="personal__head-text-wrap">
+									<p class="lab_products__head-text personal__head-text item-mess_text prod-table__head-opac">Состояние</p>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="prod-table__column">
+								<td>
+									<div class="flex-ver-center">
+										<div class="prod-table__img-wrap flex-all-center">
+											<img src="img/prod-table__img-1.png" alt="prod-table__img" class="prod-table__img">
+										</div>
+										<div class="prod-table__name-wrap">
+											<p class="text-name">ON-00003337 от 06-02-2019</p>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="flex-ver-center">
+										<p class="prod-table__text personal__text_blue">ООО «Тест»</p>
+									</div>
+								</td>
+								<td>
+									<div class="flex-ver-center">
+										<p class="prod-table__text prod-table__price-text prod-table__price-text_none">По запросу</p>
+										<div class="prod-table__price-wrap flex-ver-center prod-table__price-wrap_none prod-table__price-wrap_active">
+											<div class="prod-table__price-item">
+												<div class="prod-table__price-box">
+													<p class="prod-table__price-numb prod-table__text flex-ver-center">85 <span>a</span></p> 
+												</div>
+											</div>
+										</div>	
+									</div>
+								</td>
+								<td>
+									<div class="flex-ver-center">
+										<p class="prod-table__text personal__text_red">Новый</p>
+									</div>
+								</td>
+							</tr>
+							<tr class="prod-table__column">
+								<td>
+									<div class="flex-ver-center">
+										<div class="prod-table__img-wrap flex-all-center">
+											<img src="img/prod-table__img-1.png" alt="prod-table__img" class="prod-table__img">
+										</div>
+										<div class="prod-table__name-wrap">
+											<p class="text-name">133ЛА6 (Ruichi)</p>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="flex-ver-center">
+										<p class="prod-table__text personal__text_blue">ООО «Тест»</p>
+									</div>
+								</td>
+								<td>
+									<div class="flex-ver-center">
+										<p class="prod-table__text prod-table__price-text prod-table__price-text_none prod-table__price-text_active">По запросу</p>
+										<div class="prod-table__price-wrap flex-ver-center prod-table__price-wrap_none">
+											<div class="prod-table__price-item">
+												<div class="prod-table__price-box">
+													<p class="prod-table__price-numb prod-table__text flex-ver-center">85 <span>a</span></p> 
+												</div>
+											</div>
+										</div>							
+									</div>
+								</td>
+								<td>
+									<div class="flex-ver-center">
+										<p class="prod-table__text personal__text_red">Новый</p>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-9 personal__item personal__legal personal__legal_none personal__register border-left_black">
+				<p class="personal__head-sub">У вас пока нет сохраненных реквизитов. Сделайте заказ и они появятся.</p>
+				<h2 class="section__headline-sub personal__headline-sub">Новые реквизиты для выставления счета и доставки</h2>
+				<p class="mini-headline personal__mini-headline">Тип контрагента:</p>
+				<div class="btn-word-container btn-word-container_blue flex-ver-center">
+					<p class="btn-word btn-word_bold">Юридическое лицо</p> 
+					<svg width="7px" class="arrow-dd" height="4px" viewBox="0 0 7 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёРЅРёСЏ-РїРѕСЃС‚Р°РІРѕРє" transform="translate(-243.000000, -959.000000)" fill="#375572">
+					            <g id="arrow-point-to-right-(12)" transform="translate(246.500000, 961.000000) rotate(-270.000000) translate(-246.500000, -961.000000) translate(244.000000, 957.000000)">
+					                <path class="svg-path" d="M4.35608544,4.346536 L1.33884932,7.35633135 C1.14691666,7.54788955 0.835730745,7.54788955 0.64389126,7.35633135 C0.452036247,7.16494355 0.452036247,6.85453096 0.64389126,6.66315866 L3.31367941,3.99994965 L0.643968909,1.3368336 C0.452113895,1.14536834 0.452113895,0.834986732 0.643968909,0.643598939 C0.835823923,0.452133687 1.14699431,0.452133687 1.33892697,0.643598939 L4.35616309,3.65344077 C4.4520906,3.74918114 4.5,3.87452666 4.5,3.99993416 C4.5,4.12540362 4.45199742,4.2508421 4.35608544,4.346536 Z" id="Path"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+				</div>
+				<form action="url" class="row">
+					<div class="person__input-wrap col-6"><input type="text" placeholder="Полное наименование организации или ИП" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-6"><input type="text" placeholder="ИНН" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-12"><input type="text" placeholder="Юридический адрес" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-6"><input type="text" placeholder="+7 (___) ___-__-__" class="input-phone input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-6"><input type="text" placeholder="E-mail для связи" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-12"><input type="text" placeholder="Адрес доставки" class="input personal__input border-bot_black"></div>
+					<div class="btn-wrap">
+						<div class="btn personal__btn">
+							<p class="btn_text personal__btn_text">создать 1С: контрагенты (реквизиты)</p>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-9 personal__item personal__private personal__private_none personal__register border-left_black">
+				<p class="personal__head-sub">У вас пока нет сохраненных реквизитов. Сделайте заказ и они появятся.</p>
+				<h2 class="section__headline-sub personal__headline-sub">Новые реквизиты для выставления счета и доставки</h2>
+				<p class="mini-headline personal__mini-headline">Тип контрагента:</p>
+				<div class="btn-word-container btn-word-container_blue flex-ver-center">
+					<p class="btn-word btn-word_bold">Частное лицо</p> 
+					<svg width="7px" class="arrow-dd" height="4px" viewBox="0 0 7 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёРЅРёСЏ-РїРѕСЃС‚Р°РІРѕРє" transform="translate(-243.000000, -959.000000)" fill="#375572">
+					            <g id="arrow-point-to-right-(12)" transform="translate(246.500000, 961.000000) rotate(-270.000000) translate(-246.500000, -961.000000) translate(244.000000, 957.000000)">
+					                <path class="svg-path" d="M4.35608544,4.346536 L1.33884932,7.35633135 C1.14691666,7.54788955 0.835730745,7.54788955 0.64389126,7.35633135 C0.452036247,7.16494355 0.452036247,6.85453096 0.64389126,6.66315866 L3.31367941,3.99994965 L0.643968909,1.3368336 C0.452113895,1.14536834 0.452113895,0.834986732 0.643968909,0.643598939 C0.835823923,0.452133687 1.14699431,0.452133687 1.33892697,0.643598939 L4.35616309,3.65344077 C4.4520906,3.74918114 4.5,3.87452666 4.5,3.99993416 C4.5,4.12540362 4.45199742,4.2508421 4.35608544,4.346536 Z" id="Path"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+				</div>
+				<form action="url" class="row">
+					<div class="person__input-wrap col-6"><input type="text" placeholder="Ваше имя" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-6"><input type="text" placeholder="Ваша фамилия" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-6"><input type="text" placeholder="+7 (___) ___-__-__" class="input-phone input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-6"><input type="text" placeholder="E-mail для связи" class="input personal__input border-bot_black"></div>
+					<div class="person__input-wrap col-12"><input type="text" placeholder="Адрес доставки" class="input personal__input border-bot_black"></div>
+					<div class="btn-wrap">
+						<div class="btn personal__btn">
+							<p class="btn_text personal__btn_text">создать 1С: контрагенты (реквизиты)</p>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-9 personal__item personal__info personal__info_none border-left_black">
+				<div class="flex-ver-center info-headline-sub-wrap">
+					<img src="img/info-folder.png" alt="info-folder" class="info-folder">
+					<h2 class="section__headline-sub personal__info-headline-sub personal__headline-sub">ООО «Тест» (Без заказов)</h2>
+				</div>
+				<div class="info-item">
+					<p class="mini-headline info-mini-headline">Контрагент:</p>
+					<div class="flex-ver-center">
+						<p class="info-text">ООО «Тест»</p>
+						<img src="img/info-pen.png" alt="info-pen" class="info-pen">
+					</div>
+				</div>
+				<div class="info-item">
+					<p class="mini-headline info-mini-headline">ИНН:</p>
+					<div class="flex-ver-center">
+						<p class="info-text">0000000001</p>
+						<img src="img/info-pen.png" alt="info-pen" class="info-pen">
+					</div>
+				</div>
+				<div class="info-item">
+					<p class="mini-headline info-mini-headline">Юридический адрес:</p>
+					<div class="flex-ver-center">
+						<p class="info-text">Тест</p>
+						<img src="img/info-pen.png" alt="info-pen" class="info-pen">
+					</div>
+				</div>
+				<div class="info-item">
+					<p class="mini-headline info-mini-headline">Телефон для связи:</p>
+					<div class="flex-ver-center">
+						<p class="info-text">+7 (950) 111-32-32</p>
+						<img src="img/info-pen.png" alt="info-pen" class="info-pen">
+					</div>
+				</div>
+				<div class="info-item">
+					<p class="mini-headline info-mini-headline">E-mail для связи:</p>
+					<div class="flex-ver-center">
+						<p class="info-text">test@test.ru</p>
+						<img src="img/info-pen.png" alt="info-pen" class="info-pen">
+					</div>
+				</div>
+				<div class="info-item">
+					<p class="mini-headline info-mini-headline">Адрес доставки:</p>
+					<div class="flex-ver-center">
+						<p class="info-text">Москва, ул. Первая, д. 2, оф. 3</p>
+						<img src="img/info-pen.png" alt="info-pen" class="info-pen">
+					</div>
+				</div>
+				<div class="info-btn">
+					<p class="info-btn_text">Добавить новые реквизиты</p>	
+				</div>
+			</div>
+			<div class="col-md-9 personal__item personal__data personal__data_none border-left_black">
+				<form action="url" class="row personal__data-row">
+					<div class="person__input-wrap clear-left col-md-6">
+						<input type="text" placeholder="E-mail для связи" class="input personal__input border-bot_black" value="test@test.ru">
+						<p class="personal__input-sub mini-text opacity-0_5">Не подтвержден</p>
+					</div>
+					<div class="person__input-wrap clear-left col-md-6">
+						<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone input personal__input border-bot_black">
+						<p class="personal__input-sub mini-text opacity-0_5">Подтвержден</p>
+					</div>
+					<div class="btn-wrap">
+						<div class="btn personal__btn personal__data-btn">
+							<p class="btn_text personal__btn_text">Сохранить</p>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-9 personal__item personal__change personal__change_none border-left_black">
+				<form action="url" class="row personal__data-row">
+					<div class="person__input-wrap clear-left col-md-6">
+						<input type="password" placeholder="Введите пароль" class="input personal__input border-bot_black">
+					</div>
+					<div class="person__input-wrap clear-left col-md-6">
+						<input type="password" placeholder="Повторите пароль" class="input personal__input border-bot_black">
+					</div>
+					<div class="btn-wrap">
+						<div class="btn personal__btn personal__data-btn">
+							<p class="btn_text personal__btn_text">Сохранить</p>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+<footer class="bottom cf">
+		<div class="bottom__wrap container cf">
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo bottom__logo"></a>
+				<p class="bottom__text-small text-small bottom__text">Copyrights © 2019 <br> All Rights Reserved <br> by Onelec.</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-3 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Чебоксары</p>
+				<p class="text-norm bottom__text">+7 (8352) 36-71-71</p>
+				<p class="bottom__text-small text-small bottom__text">Московский пр-кт, д. 19, корпус 10,<br> помещение 2</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-пт с 8:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Москва</p>
+				<p class="text-norm bottom__text">+7 (495) 668-07-17</p>
+				<p class="bottom__text-small text-small bottom__text">ул. 1-я Дубровская, д. 5, 2-й подъезд, первый этаж, офис 25</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-чт с 9:00 до 18:00<br>Пт с 9:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><p class="bottom__text text-opac">Главная</p></a>
+				<a href="supplies.html"><p class="bottom__text text-opac">Линия поставок</p></a>
+				<a href="about_us.html"><p class="bottom__text text-opac">О компании</p></a>
+				<a href="delivery.html"><p class="bottom__text text-opac">Доставка</p></a>
+				<a href="news.html"><p class="bottom__text text-opac">Новости</p></a>
+				<a href="license.html"><p class="bottom__text text-opac">Сертификаты</p></a>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-confid">Политика конфиденциальности</p>
+				<p class="bottom__text-social text-opac bottom__text">Мы в соц. сетях:</p>
+				<img src="img/bottom__social-img-1.png" alt="social-img" class="bottom__social-img">
+				<img src="img/bottom__social-img-2.png" alt="social-img" class="bottom__social-img">
+				<div class="bottom__social-img-inst flex-all-center">
+					<img src="img/bottom__social-img-3.png" alt="social-img">
+				</div>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-1 col-lg-2">
+				<div class="bottom__item-wrap">
+					<img src="img/bottom__comodo.png" alt="comodo" class="bottom__comodo-img">
+					<p class="bottom__text-small text-small bottom__text">Сделано<br>в веб-студии</p>
+					<img src="img/bottom__redbox.png" alt="redbox" class="bottom__redbox-img">
+				</div>
+			</div>
+		</div>
+		<img src="img/bottom-bg.png" alt="bottom_bg" class="section__bg bottom__bg z-index-1">
+		<div class="bottom__bg_mask z-index-2"></div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

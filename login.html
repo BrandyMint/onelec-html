@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i" rel="stylesheet" type='text/css'> 
+</head>
+<body>
+	<header class="header">
+		<div class="navbar flex-hor-center">
+			<nav class="navbar__item navbar__item-index flex-all-center">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo header__logo"></a>
+				<img src="img/phone.png" alt="phone" class="phone__img">
+				<p class="header__text_left header__text_white header__text_phone"><span class="span_phone">8-495-</span>668-07-17</p>
+				<div class="header__text_center-wrap flex-ver-center">
+					<a href="supplies.html" class="header__text_right header__text_white header__text_center header__link header__text_center_black">Линия поставок</a>
+					<a href="news.html" class="header__text_white header__text_center header__link header__text_center_black">Новости</a>
+					<a href="about_us.html" class="header__text_left header__text_white header__text_center header__link header__text_center_black">Контакты</a>
+				</div>
+				<img src="img/search.png" alt="search" class="search__img nav__search__img header__nav_img">
+				<a href="#" class="header__nav_text header__text_white header__text_right header__link">Поиск</a>
+				<img src="img/login.png" alt="login" class="login__img header__nav_img">
+				<div class="login-wrap z-index2">
+					<a href="login.html" class="header__nav_text header__text_white header__login header__text_right header__link">Вход</a>
+					<div class="login-up">
+						<p class="login-up__headline">Войти в личный кабинет</p>
+						<form class="registr__item">
+							<input type="text" placeholder="E-mail или телефон" class="input personal__input registr__input border-bot_black">
+							<input type="password" placeholder="Пароль" class="input personal__input registr__input border-bot_black">
+							<div class="btn-wrap">
+								<div class="btn registr__btn">
+									<p class="btn_text personal__btn_text">Войти</p>
+								</div>
+							</div>
+							<a href="recovery.html"><p class="header__login-link detail clear-left">Забыли пароль?</p></a>
+							<a href="registr.html"><p class="header__login-reg detail clear-left">Регистрация</p></a>
+						</form>
+					</div>
+				</div>
+				<img src="img/basket.png" alt="basket" class="basket__img header__nav_img">
+				<a href="basket.html" class="header__nav_text header__text_white header__text_right header__link">Корзина</a>
+			</nav>
+		</div>
+		<div class="section__bg-wrap flex-all-center z-index-1">
+			<img src="img/nav-bg.png" alt="nav_bg" class="section__bg">
+		</div>
+		<div class="nav-border z-index-2"></div>
+	</header>
+
+	<section class="login">
+		<h1 class="section__headline registr__headline">Вход в личный кабинет</h1>
+		<div class="container flex-hor-center flex-wrap">
+			<form class="col-xl-4 col-lg-6 col-md-7 registr__item">
+				<input type="text" placeholder="E-mail или телефон" class="input personal__input registr__input border-bot_black">
+				<input type="password" placeholder="Введите пароль" class="input personal__input registr__input border-bot_black">
+				<div class="btn-wrap">
+					<div class="btn registr__btn">
+						<p class="btn_text personal__btn_text">Войти</p>
+					</div>
+				</div>
+				<a href="recovery.html"><p class="registr__login-link detail">Забыли пароль?</p></a>
+			</form>
+		</div>
+	</section>
+
+	<footer class="bottom cf">
+		<div class="bottom__wrap container cf">
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo bottom__logo"></a>
+				<p class="bottom__text-small text-small bottom__text">Copyrights © 2019 <br> All Rights Reserved <br> by Onelec.</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-3 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Чебоксары</p>
+				<p class="text-norm bottom__text">+7 (8352) 36-71-71</p>
+				<p class="bottom__text-small text-small bottom__text">Московский пр-кт, д. 19, корпус 10,<br> помещение 2</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-пт с 8:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Москва</p>
+				<p class="text-norm bottom__text">+7 (495) 668-07-17</p>
+				<p class="bottom__text-small text-small bottom__text">ул. 1-я Дубровская, д. 5, 2-й подъезд, первый этаж, офис 25</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-чт с 9:00 до 18:00<br>Пт с 9:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><p class="bottom__text text-opac">Главная</p></a>
+				<a href="supplies.html"><p class="bottom__text text-opac">Линия поставок</p></a>
+				<a href="about_us.html"><p class="bottom__text text-opac">О компании</p></a>
+				<a href="delivery.html"><p class="bottom__text text-opac">Доставка</p></a>
+				<a href="news.html"><p class="bottom__text text-opac">Новости</p></a>
+				<a href="license.html"><p class="bottom__text text-opac">Сертификаты</p></a>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-confid">Политика конфиденциальности</p>
+				<p class="bottom__text-social text-opac bottom__text">Мы в соц. сетях:</p>
+				<img src="img/bottom__social-img-1.png" alt="social-img" class="bottom__social-img">
+				<img src="img/bottom__social-img-2.png" alt="social-img" class="bottom__social-img">
+				<div class="bottom__social-img-inst flex-all-center">
+					<img src="img/bottom__social-img-3.png" alt="social-img">
+				</div>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-1 col-lg-2">
+				<div class="bottom__item-wrap">
+					<img src="img/bottom__comodo.png" alt="comodo" class="bottom__comodo-img">
+					<p class="bottom__text-small text-small bottom__text">Сделано<br>в веб-студии</p>
+					<img src="img/bottom__redbox.png" alt="redbox" class="bottom__redbox-img">
+				</div>
+			</div>
+		</div>
+		<img src="img/bottom-bg.png" alt="bottom_bg" class="section__bg bottom__bg z-index-1">
+		<div class="bottom__bg_mask z-index-2"></div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

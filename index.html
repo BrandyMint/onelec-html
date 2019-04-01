@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Onelec</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="navbar flex-hor-center">
+			<nav class="navbar__item navbar__item-index flex-all-center">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo header__logo"></a>
+				<img src="img/phone.png" alt="phone" class="phone__img">
+				<p class="header__text_left header__text_white header__text_phone"><span class="span_phone">8-495-</span>668-07-17</p>
+				<div class="header__text_center-wrap flex-ver-center">
+					<a href="supplies.html" class="header__text_right header__text_white header__text_center header__link">Линия поставок</a>
+					<a href="news.html" class="header__text_white header__text_center header__link">Новости</a>
+					<a href="about_us.html" class="header__text_left header__text_white header__text_center header__link">Контакты</a>
+				</div>
+				<img src="img/search.png" alt="search" class="search__img nav__search__img header__nav_img">
+				<a href="#" class="header__nav_text header__text_white header__text_right header__link">Поиск</a>
+				<img src="img/login.png" alt="login" class="login__img header__nav_img">
+				<div class="login-wrap z-index2">
+					<a href="login.html" class="header__nav_text header__text_white header__login header__text_right header__link">Вход</a>
+					<div class="login-up">
+						<p class="login-up__headline">Войти в личный кабинет</p>
+						<form class="registr__item">
+							<input type="text" placeholder="E-mail или телефон" class="input personal__input registr__input border-bot_black">
+							<input type="password" placeholder="Пароль" class="input personal__input registr__input border-bot_black">
+							<div class="btn-wrap">
+								<div class="btn registr__btn">
+									<p class="btn_text personal__btn_text">Войти</p>
+								</div>
+							</div>
+							<a href="recovery.html"><p class="header__login-link detail clear-left">Забыли пароль?</p></a>
+							<a href="registr.html"><p class="header__login-reg detail clear-left">Регистрация</p></a>
+						</form>
+					</div>
+				</div>
+				<img src="img/basket.png" alt="basket" class="basket__img header__nav_img">
+				<a href="basket.html" class="header__nav_text header__text_white header__text_right header__link">Корзина</a>
+			</nav>
+		</div>
+		<div class="header-wrap z-index0">			
+			<h1 class="headline">Комплексные поставки электронных компонентов</h1>
+			<div class="search_wrap header__search_wrap flex-all-center">
+				<form action="url" class="search-form header__search-form flex-all-center">
+					<img src="img/search.png" alt="search" class="search__img">
+					<input type="text" class="input header__search-input" placeholder="Например, Фотодиод LIR034">
+					<div class="btn-word-container search__btn-word-container btn-word-container_white flex-ver-center">
+						<p class="btn-word">Тип продукции</p> 
+						<svg width="7px" class="arrow-dd" height="4px" viewBox="0 0 7 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р›РёРЅРёСЏ-РїРѕСЃС‚Р°РІРѕРє" transform="translate(-243.000000, -959.000000)" fill="#375572">
+						            <g id="arrow-point-to-right-(12)" transform="translate(246.500000, 961.000000) rotate(-270.000000) translate(-246.500000, -961.000000) translate(244.000000, 957.000000)">
+						                <path class="svg-path" d="M4.35608544,4.346536 L1.33884932,7.35633135 C1.14691666,7.54788955 0.835730745,7.54788955 0.64389126,7.35633135 C0.452036247,7.16494355 0.452036247,6.85453096 0.64389126,6.66315866 L3.31367941,3.99994965 L0.643968909,1.3368336 C0.452113895,1.14536834 0.452113895,0.834986732 0.643968909,0.643598939 C0.835823923,0.452133687 1.14699431,0.452133687 1.33892697,0.643598939 L4.35616309,3.65344077 C4.4520906,3.74918114 4.5,3.87452666 4.5,3.99993416 C4.5,4.12540362 4.45199742,4.2508421 4.35608544,4.346536 Z" id="Path"></path>
+						            </g>
+						        </g>
+						    </g>
+						</svg>
+					</div>
+					<div class="btn search__btn">
+						<p class="btn_text">Найти</p>
+					</div>
+				</form>
+			</div>
+			</form>
+			<div class="section__bg-wrap flex-all-center z-index-1">
+				<img src="img/header-bg.jpg" alt="header-bg" class="section__bg">
+			</div>
+			<div class="nav-border z-index-2"></div>
+		</div>
+	</header>
+
+	<section class="products z-index1 cf container">
+		<h1 class="section__headline products__headline">Наша продукция</h1>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<a href="products.html">
+				<div class="products__item">
+					<img src="img/products__item-1.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<a href="products.html">
+				<div class="products__item">
+					<img src="img/products__item-2.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<div class="products__item">
+				<a href="products.html">
+					<img src="img/products__item-3.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<div class="products__item">
+				<a href="products.html">
+					<img src="img/products__item-4.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<div class="products__item">
+				<a href="products.html">
+					<img src="img/products__item-5.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<div class="products__item">
+				<a href="products.html">
+					<img src="img/products__item-6.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<div class="products__item">
+				<a href="products.html">
+					<img src="img/products__item-7.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xl-3 col-sm-6 products-wrap">
+			<div class="products__item">
+				<a href="products.html">
+					<img src="img/products__item-8.jpg" alt="bg" class="products__bg">
+					<div class="products__shadow-top products__shadow"></div>
+					<div class="products__shadow-bottom products__shadow"></div>
+					<div class="products__item-wrap">
+						<p class="products__text">8 категорий</p>
+						<div class="products__item-sign-wrap">
+							<h3 class="products__item-headline">Электромеханические компоненты</h3>
+							<p class="products__text products__text-sign">Герконы, Реле, Контакторы, Устройства охлаждения/нагрева, Электродвигатели</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="advant container cf">
+		<h1 class="section__headline advant__headline">Наши ключевые преимущества:</h1>
+		<div class="col-lg-4 col-md-6 advent__item">
+			<div class="advent__item-wrap">
+				<img src="img/advent_img-1.png" alt="advent_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub advant__headline-sub">Партнерские отношения</h3>
+			<p class="section__text advant__text">Мы занимаемся комплексными поставками электронных компонентов от ведущих отечественных и мировых производителей</p>
+		</div>
+		<div class="col-lg-4 col-md-6 advent__item">
+			<div class="advent__item-wrap">
+				<img src="img/advent_img-2.png" alt="advent_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub advant__headline-sub">Продукция</h3>
+			<p class="section__text advant__text">Вам предоставляется широкий ассортиментный ряд электронных компонентов от известных мировых производителей с возможностью покупки со складов и под заказ</p>
+		</div>
+		<div class="col-lg-4 col-md-6 advent__item">
+			<div class="advent__item-wrap">
+				<img src="img/advent_img-3.png" alt="advent_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub advant__headline-sub">Надежность и ответственность</h3>
+			<p class="section__text advant__text">Индивидуальный подход к каждому клиенту позволяет нам быть максимально эффективными</p>
+		</div>
+		<div class="col-lg-4 col-md-6 clear-left advent__item">
+			<div class="advent__item-wrap">
+				<img src="img/advent_img-4.png" alt="advent_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub advant__headline-sub">Качество</h3>
+			<p class="section__text advant__text">Мы сотрудничаем только с проверенными производителями. Благодаря подписанным долгосрочным контрактам наша компания может гарантировать высокое качество произведенной продукции</p>
+		</div>
+		<div class="col-lg-4 col-md-6 advent__item">
+			<div class="advent__item-wrap">
+				<img src="img/advent_img-5.png" alt="advent_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub advant__headline-sub">Доставка</h3>
+			<p class="section__text advant__text">Огромный выбор способа доставки различных грузов, в зависимости от вашего бюджета и времени. Курьерская служба работает днем и ночью — багаж не затеряется в потоке заказов</p>
+		</div>
+		<div class="col-lg-4 col-md-6 advent__item">
+			<div class="advent__item-wrap">
+				<img src="img/advent_img-6.png" alt="advent_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub advant__headline-sub">Профессионализм</h3>
+			<p class="section__text advant__text">Наши сотрудники обладают высокой квалификацией и имеют большой опыт работы. Мы способны обеспечить техническую поддержку и помощь в подборе аналогов</p>
+		</div>
+	</section>
+
+	<section class="reviews cf">
+		<h1 class="section__headline reviews__headline">Отзывы клиентов</h1>
+		<div class="reviews-wrap flex-hor-center">
+			<div class="reviews__item-wrap">
+				<div class="reviews__item reviews__item-mess">
+					<img src="img/commas.png" alt="commas" class="reviews__item-mess_img z-index2">
+					<p class="reviews__item-mess_text item-mess_text z-index2">Выражаем признательность и благодарность коллективу ООО «ОНЭЛЕК» за качественную и своевременную поставку электронных компонентов.</p>
+					<div class="triangle-wrap z-index1"></div>
+					<div class="triangle z-index-2"></div>
+				</div>
+				<div class="reviews__item reviews__item-user">
+					<img src="img/user-1.png" alt="name" class="reviews__item-user_img reviews__item-user_img-1">
+					<div class="reviews__item-user_wrap">
+						<p class="reviews__item-user_name">Сиразетдинова Ф.Ф.</p>
+						<p class="reviews__item-user_text">Начальник ОВК АО «Радиоприбор»</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="reviews__item-wrap">
+				<div class="reviews__item reviews__item-mess">
+					<img src="img/commas.png" alt="commas" class="reviews__item-mess_img z-index2">
+					<p class="reviews__item-mess_text item-mess_text z-index2">В работе Онэлека понравились сроки поставки и адекватные цены. Профессионализм сотрудников приятно радует!</p>
+					<div class="triangle-wrap z-index1"></div>
+					<div class="triangle z-index-2"></div>
+				</div>
+				<div class="reviews__item reviews__item-user">
+					<img src="img/user-2.png" alt="name" class="reviews__item-user_img reviews__item-user_img-2">
+					<div class="reviews__item-user_wrap">
+						<p class="reviews__item-user_name">Пащенко С.В.</p>
+						<p class="reviews__item-user_text">Объединенный институт ядерных исследований</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="supp">
+		<h1 class="section__headline supp__headline">Наши поставщики</h1>
+		<div class="flex-all-center supp__img-flex">
+			<img src="img/prov-1.png" alt="prov" class="supp__img">
+			<img src="img/prov-2.png" alt="prov" class="supp__img">
+			<img src="img/prov-3.png" alt="prov" class="supp__img">
+			<img src="img/prov-4.png" alt="prov" class="supp__img">
+			<img src="img/prov-5.png" alt="prov" class="supp__img">
+			<img src="img/prov-6.png" alt="prov" class="supp__img">
+		</div>
+		<div class="supp__btn-word-conatiner btn-word-container btn-word-container_blue flex-all-center">
+			<svg width="12px" height="15px" class="micros" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р“Р»Р°РІРЅР°СЏ" transform="translate(-568.000000, -2347.000000)" fill="#385673" fill-rule="nonzero">
+			            <g id="microchip" transform="translate(568.000000, 2347.000000)">
+			                <path class="svg-path" d="M2.40157241,5.21599476 L9.58477241,5.21599476 L9.58477241,9.77096859 L2.40157241,9.77096859 L2.40157241,5.21599476 Z M0.242151724,3.11520942 L11.7441103,3.11520942 C11.8584,3.11520942 11.9510069,3.20308901 11.9510069,3.3115445 L11.9510069,11.6754188 C11.9510069,11.7838743 11.8584,11.8717539 11.7441103,11.8717539 L0.242151724,11.8717539 C0.127862069,11.8717539 0.0352551724,11.7838743 0.0352551724,11.6754188 L0.0352551724,3.3115445 C0.0352551724,3.20308901 0.127862069,3.11520942 0.242151724,3.11520942 Z M1.57398621,10.5563089 L10.4123586,10.5563089 L10.4123586,4.43065445 L1.57398621,4.43065445 L1.57398621,10.5563089 Z M2.72416552,2.89272251 L2.72416552,1.17604712 C2.87586207,1.05361257 2.97244138,0.871413613 2.97244138,0.667539267 C2.97244138,0.29882199 2.65754483,0 2.2689931,0 C1.88044138,0 1.56554483,0.29882199 1.56554483,0.667539267 C1.56554483,0.871413613 1.66212414,1.05361257 1.81382069,1.17604712 L1.81382069,2.89272251 L2.72416552,2.89272251 Z M5.20692414,2.89272251 L5.20692414,1.17604712 C5.35862069,1.05361257 5.4552,0.871413613 5.4552,0.667539267 C5.4552,0.29882199 5.14030345,0 4.75175172,0 C4.3632,0 4.04830345,0.29882199 4.04830345,0.667539267 C4.04830345,0.871413613 4.1448,1.05361257 4.29657931,1.17604712 L4.29657931,2.89272251 L5.20692414,2.89272251 Z M7.68968276,2.89272251 L7.68968276,1.17604712 C7.84137931,1.05361257 7.93795862,0.871413613 7.93795862,0.667539267 C7.93795862,0.29882199 7.62306207,0 7.23451034,0 C6.84595862,0 6.53106207,0.29882199 6.53106207,0.667539267 C6.53106207,0.871413613 6.62755862,1.05361257 6.77933793,1.17604712 L6.77933793,2.89272251 L7.68968276,2.89272251 Z M10.1724414,2.89272251 L10.1724414,1.17604712 C10.3241379,1.05361257 10.4207172,0.871413613 10.4207172,0.667539267 C10.4207172,0.29882199 10.1058207,0 9.71726897,0 C9.32871724,0 9.01382069,0.29882199 9.01382069,0.667539267 C9.01382069,0.871413613 9.11031724,1.05361257 9.26209655,1.17604712 L9.26209655,2.89272251 L10.1724414,2.89272251 Z M9.26209655,12.0942408 L9.26209655,13.8109162 C9.11031724,13.9333508 9.01382069,14.1155497 9.01382069,14.3194241 C9.01382069,14.6881414 9.32871724,14.9869634 9.71726897,14.9869634 C10.1058207,14.9869634 10.4207172,14.6881414 10.4207172,14.3194241 C10.4207172,14.1155497 10.3241379,13.9333508 10.1724414,13.8109162 L10.1724414,12.0942408 L9.26209655,12.0942408 Z M6.77933793,12.0942408 L6.77933793,13.8109162 C6.62755862,13.9333508 6.53106207,14.1155497 6.53106207,14.3194241 C6.53106207,14.6881414 6.84595862,14.9869634 7.23451034,14.9869634 C7.62306207,14.9869634 7.93795862,14.6881414 7.93795862,14.3194241 C7.93795862,14.1155497 7.84137931,13.9333508 7.68968276,13.8109162 L7.68968276,12.0942408 L6.77933793,12.0942408 Z M4.29657931,12.0942408 L4.29657931,13.8109162 C4.1448,13.9333508 4.04830345,14.1155497 4.04830345,14.3194241 C4.04830345,14.6881414 4.3632,14.9869634 4.75175172,14.9869634 C5.14030345,14.9869634 5.4552,14.6881414 5.4552,14.3194241 C5.4552,14.1155497 5.35862069,13.9333508 5.20692414,13.8109162 L5.20692414,12.0942408 L4.29657931,12.0942408 Z M1.81382069,12.0942408 L1.81382069,13.8109162 C1.66212414,13.9333508 1.56554483,14.1155497 1.56554483,14.3194241 C1.56554483,14.6881414 1.88044138,14.9869634 2.2689931,14.9869634 C2.65754483,14.9869634 2.97244138,14.6881414 2.97244138,14.3194241 C2.97244138,14.1155497 2.87586207,13.9333508 2.72416552,13.8109162 L2.72416552,12.0942408 L1.81382069,12.0942408 Z" id="Shape"></path>
+			            </g>
+			        </g>
+			    </g>
+			</svg>
+			<p class="btn-word btn-word_bold supp__btn-word">Посмотреть всех поставщиков (10434)</p>
+		</div> 
+		<img src="img/scheme-bg.jpg" alt="scheme-bg" class="scheme-bg z-index-1">
+	</section>
+
+	<footer class="bottom cf">
+		<div class="bottom__wrap container cf">
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo bottom__logo"></a>
+				<p class="bottom__text-small text-small bottom__text">Copyrights © 2019 <br> All Rights Reserved <br> by Onelec.</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-3 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Чебоксары</p>
+				<p class="text-norm bottom__text">+7 (8352) 36-71-71</p>
+				<p class="bottom__text-small text-small bottom__text">Московский пр-кт, д. 19, корпус 10,<br> помещение 2</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-пт с 8:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Москва</p>
+				<p class="text-norm bottom__text">+7 (495) 668-07-17</p>
+				<p class="bottom__text-small text-small bottom__text">ул. 1-я Дубровская, д. 5, 2-й подъезд, первый этаж, офис 25</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-чт с 9:00 до 18:00<br>Пт с 9:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><p class="bottom__text text-opac">Главная</p></a>
+				<a href="supplies.html"><p class="bottom__text text-opac">Линия поставок</p></a>
+				<a href="about_us.html"><p class="bottom__text text-opac">О компании</p></a>
+				<a href="delivery.html"><p class="bottom__text text-opac">Доставка</p></a>
+				<a href="news.html"><p class="bottom__text text-opac">Новости</p></a>
+				<a href="license.html"><p class="bottom__text text-opac">Сертификаты</p></a>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-confid">Политика конфиденциальности</p>
+				<p class="bottom__text-social text-opac bottom__text">Мы в соц. сетях:</p>
+				<img src="img/bottom__social-img-1.png" alt="social-img" class="bottom__social-img">
+				<img src="img/bottom__social-img-2.png" alt="social-img" class="bottom__social-img">
+				<div class="bottom__social-img-inst flex-all-center">
+					<img src="img/bottom__social-img-3.png" alt="social-img">
+				</div>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-1 col-lg-2">
+				<div class="bottom__item-wrap">
+					<img src="img/bottom__comodo.png" alt="comodo" class="bottom__comodo-img">
+					<p class="bottom__text-small text-small bottom__text">Сделано<br>в веб-студии</p>
+					<img src="img/bottom__redbox.png" alt="redbox" class="bottom__redbox-img">
+				</div>
+			</div>
+		</div>
+		<img src="img/bottom-bg.jpg" alt="bottom_bg" class="section__bg bottom__bg z-index-1">
+		<div class="bottom__bg_mask z-index-2"></div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

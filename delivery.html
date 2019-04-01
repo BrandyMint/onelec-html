@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Delivery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i" rel="stylesheet" type='text/css'> 
+</head>
+<body>
+	<header class="header">
+		<div class="navbar flex-hor-center">
+			<nav class="navbar__item navbar__item-index flex-all-center">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo header__logo"></a>
+				<img src="img/phone.png" alt="phone" class="phone__img">
+				<p class="header__text_left header__text_white header__text_phone"><span class="span_phone">8-495-</span>668-07-17</p>
+				<div class="header__text_center-wrap flex-ver-center">
+					<a href="supplies.html" class="header__text_right header__text_white header__text_center header__link header__text_center_black">Линия поставок</a>
+					<a href="news.html" class="header__text_white header__text_center header__link header__text_center_black">Новости</a>
+					<a href="about_us.html" class="header__text_left header__text_white header__text_center header__link header__text_center_black">Контакты</a>
+				</div>
+				<img src="img/search.png" alt="search" class="search__img nav__search__img header__nav_img">
+				<a href="#" class="header__nav_text header__text_white header__text_right header__link">Поиск</a>
+				<img src="img/login.png" alt="login" class="login__img header__nav_img">
+				<div class="login-wrap z-index2">
+					<a href="login.html" class="header__nav_text header__text_white header__login header__text_right header__link">Вход</a>
+					<div class="login-up">
+						<p class="login-up__headline">Войти в личный кабинет</p>
+						<form class="registr__item">
+							<input type="text" placeholder="E-mail или телефон" class="input personal__input registr__input border-bot_black">
+							<input type="password" placeholder="Пароль" class="input personal__input registr__input border-bot_black">
+							<div class="btn-wrap">
+								<div class="btn registr__btn">
+									<p class="btn_text personal__btn_text">Войти</p>
+								</div>
+							</div>
+							<a href="recovery.html"><p class="header__login-link detail clear-left">Забыли пароль?</p></a>
+							<a href="registr.html"><p class="header__login-reg detail clear-left">Регистрация</p></a>
+						</form>
+					</div>
+				</div>
+				<img src="img/basket.png" alt="basket" class="basket__img header__nav_img">
+				<a href="basket.html" class="header__nav_text header__text_white header__text_right header__link">Корзина</a>
+			</nav>
+		</div>
+		<div class="section__bg-wrap flex-all-center z-index-1">
+			<img src="img/nav-bg.png" alt="nav_bg" class="section__bg">
+		</div>
+		<div class="nav-border z-index-2"></div>
+	</header>
+
+	<section class="delivery container cf flex-wrap">
+		<h1 class="section__headline delivery__headline">Доставка</h1>
+		<h2 class="col-xl-3 col-lg-3 section__headline-sub delivery__headline-sub_opac">Самовывоз из офисов</h2>
+		<div class="col-xl-6 col-lg-9">
+			<p class="section__sub">Вы можете забрать заказ сами или прислать курьера в наши офисы:</p>
+			<div class="delivery__address cf">
+				<div class="delivery__svg-wrap">
+					<svg class="delivery__svg" width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р”РѕСЃС‚Р°РІРєР°" transform="translate(-443.000000, -231.000000)" fill="#2959A9" fill-rule="nonzero">
+					            <g id="place-copy" transform="translate(443.000000, 231.000000)">
+					                <path class="delivery__svg-path" d="M10.8768797,2.60803711 C9.74937005,0.950712891 7.96243736,0 5.97462005,0 C3.98680274,0 2.19987005,0.950712891 1.07236043,2.60803711 C-0.0496107209,4.25698242 -0.308678029,6.34458984 0.377975818,8.18897461 C0.561639279,8.69264648 0.853591202,9.18199219 1.24364889,9.64054687 L5.58147582,14.8153711 C5.67958159,14.9325 5.82332197,15 5.97462005,15 C6.12591813,15 6.26965851,14.9325293 6.36776428,14.8153711 L10.7043797,9.64195312 C11.0961681,9.18076172 11.387745,8.69194336 11.5698797,8.19231445 C12.2579181,6.34458984 11.9988508,4.25698242 10.8768797,2.60803711 Z M10.6028412,7.82499023 C10.4623893,8.21047852 10.2330912,8.59160156 9.92169697,8.95819336 C9.92083159,8.95907227 9.9199662,8.95995117 9.91927389,8.96100586 L5.97462005,13.6666113 L2.02754313,8.95804687 C1.71632197,8.59177734 1.48702389,8.21068359 1.34518736,7.82150391 C0.777321971,6.29616211 0.992831587,4.57010742 1.92185082,3.20455078 C2.85378351,1.83462891 4.33105274,1.04894531 5.97462005,1.04894531 C7.61815851,1.04894531 9.09525466,1.83459961 10.0272162,3.20455078 C10.9564085,4.57010742 11.1720912,6.29616211 10.6028412,7.82499023 Z" id="Shape"></path>
+					                <path class="delivery__svg-path" d="M5.89188462,3 C4.29738462,3 3,4.31748047 3,5.93707031 C3,7.55666016 4.29721154,8.87414062 5.89188462,8.87414062 C7.48655769,8.87414062 8.78376923,7.55666016 8.78376923,5.93707031 C8.78376923,4.31765625 7.48638462,3 5.89188462,3 Z M5.89188462,7.82516602 C4.86680769,7.82516602 4.03280769,6.97813477 4.03280769,5.93704102 C4.03280769,4.89594727 4.86680769,4.04891602 5.89188462,4.04891602 C6.91696154,4.04891602 7.75096154,4.89594727 7.75096154,5.93704102 C7.75096154,6.97813477 6.91696154,7.82516602 5.89188462,7.82516602 Z" id="Shape"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+				</div>
+				<p class="delivery__address-text mini-text">г. Москва, ул. 1-я Дубровская, дом 5, офис 25, комната 2. Выдача заказов: пн-чт с 09-00 до 18-00; пт с 09-00 до 17-00</p>
+			</div>
+			<div class="delivery__address cf">
+				<div class="delivery__svg-wrap">
+					<svg class="delivery__svg" width="12px" height="15px" viewBox="0 0 12 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="РЎР°Р№С‚-вЂ”-Onelec-вЂ”-Р”РѕСЃС‚Р°РІРєР°" transform="translate(-443.000000, -231.000000)" fill="#2959A9" fill-rule="nonzero">
+					            <g id="place-copy" transform="translate(443.000000, 231.000000)">
+					                <path class="delivery__svg-path" d="M10.8768797,2.60803711 C9.74937005,0.950712891 7.96243736,0 5.97462005,0 C3.98680274,0 2.19987005,0.950712891 1.07236043,2.60803711 C-0.0496107209,4.25698242 -0.308678029,6.34458984 0.377975818,8.18897461 C0.561639279,8.69264648 0.853591202,9.18199219 1.24364889,9.64054687 L5.58147582,14.8153711 C5.67958159,14.9325 5.82332197,15 5.97462005,15 C6.12591813,15 6.26965851,14.9325293 6.36776428,14.8153711 L10.7043797,9.64195312 C11.0961681,9.18076172 11.387745,8.69194336 11.5698797,8.19231445 C12.2579181,6.34458984 11.9988508,4.25698242 10.8768797,2.60803711 Z M10.6028412,7.82499023 C10.4623893,8.21047852 10.2330912,8.59160156 9.92169697,8.95819336 C9.92083159,8.95907227 9.9199662,8.95995117 9.91927389,8.96100586 L5.97462005,13.6666113 L2.02754313,8.95804687 C1.71632197,8.59177734 1.48702389,8.21068359 1.34518736,7.82150391 C0.777321971,6.29616211 0.992831587,4.57010742 1.92185082,3.20455078 C2.85378351,1.83462891 4.33105274,1.04894531 5.97462005,1.04894531 C7.61815851,1.04894531 9.09525466,1.83459961 10.0272162,3.20455078 C10.9564085,4.57010742 11.1720912,6.29616211 10.6028412,7.82499023 Z" id="Shape"></path>
+					                <path class="delivery__svg-path" d="M5.89188462,3 C4.29738462,3 3,4.31748047 3,5.93707031 C3,7.55666016 4.29721154,8.87414062 5.89188462,8.87414062 C7.48655769,8.87414062 8.78376923,7.55666016 8.78376923,5.93707031 C8.78376923,4.31765625 7.48638462,3 5.89188462,3 Z M5.89188462,7.82516602 C4.86680769,7.82516602 4.03280769,6.97813477 4.03280769,5.93704102 C4.03280769,4.89594727 4.86680769,4.04891602 5.89188462,4.04891602 C6.91696154,4.04891602 7.75096154,4.89594727 7.75096154,5.93704102 C7.75096154,6.97813477 6.91696154,7.82516602 5.89188462,7.82516602 Z" id="Shape"></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+				</div>
+				<p class="delivery__address-text mini-text">г. Чебоксары, пр-т Московский, 19 корпус 10, помещение 2. Выдача заказов: пн-пт с 8-00 до 17-00</p>
+			</div>
+		</div>
+		<h2 class="section__headline-sub delivery__headline-sub">Возможные службы доставки</h2>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-1.png" alt="basics_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub">SPSR Express</h3>
+			<p class="section__text">Компания SPSR Express была основана в 2001 году и за короткий срок стала лидером российского рынка экспресс–перевозок.</p>
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-2.png" alt="basics_img" class="flex__img">
+			</div>
+			<h3 class="section__headline-sub">СДЭК</h3>
+			<p class="section__text">Мы оказываем людям и компаниям спектр услуг своевременной и гарантированной доставки, постоянно повышая уровень сервиса.</p>
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-3.png" alt="basics_img" class="flex__img">
+			</div>				
+			<h3 class="section__headline-sub">Почта России</h3>
+			<p class="section__text">Наша Миссия — объединять людей. Мы предоставляем надежные и доступные услуги почтовой связи в России и по всему миру.</p>
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-4.png" alt="basics_img" class="flex__img">
+			</div>				
+			<h3 class="section__headline-sub">ПЭК</h3>
+			<p class="section__text">Один из крупнейших российских грузоперевозчиков, специализируется на перевозке сборных грузов.</p>			
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-5.png" alt="basics_img" class="flex__img">
+			</div>				
+			<h3 class="section__headline-sub">Major Express</h3>
+			<p class="section__text">Компания, специализирующаяся на предоставлении услуг по экспресс-доставке корреспонденции и грузов в любую точку мира.</p>
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-6.png" alt="basics_img" class="flex__img">
+			</div>				
+			<h3 class="section__headline-sub">FedEx</h3>
+			<p class="section__text">Предоставляем доступ к товарам, услугам и идеям, дарим возможности и улучшаем жизнь.</p>				
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-7.png" alt="basics_img" class="flex__img">
+			</div>				
+			<h3 class="section__headline-sub">Деловые Линии</h3>
+			<p class="section__text">Группа компаний «Деловые Линии» является одной из крупнейших транспортно-логистических компаний России.</p>			
+		</div>
+		<div class="col-lg-3 col-sm-6 basics__item">
+			<div class="basics__item-wrap">
+				<img src="img/delivery__img-8.png" alt="basics_img" class="flex__img">
+			</div>				
+			<h3 class="section__headline-sub">Байкал Сервис</h3>
+			<p class="section__text">«Байкал Сервис» более 20 лет перевозит сборные грузы по России.</p>		
+		</div>
+	</section>
+
+	<footer class="bottom cf">
+		<div class="bottom__wrap container cf">
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo bottom__logo"></a>
+				<p class="bottom__text-small text-small bottom__text">Copyrights © 2019 <br> All Rights Reserved <br> by Onelec.</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-3 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Чебоксары</p>
+				<p class="text-norm bottom__text">+7 (8352) 36-71-71</p>
+				<p class="bottom__text-small text-small bottom__text">Московский пр-кт, д. 19, корпус 10,<br> помещение 2</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-пт с 8:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-opac-more text-opac bottom__text">г. Москва</p>
+				<p class="text-norm bottom__text">+7 (495) 668-07-17</p>
+				<p class="bottom__text-small text-small bottom__text">ул. 1-я Дубровская, д. 5, 2-й подъезд, первый этаж, офис 25</p>
+				<p class="bottom__text-small text-small bottom__text">Режим работы:<br>Пн-чт с 9:00 до 18:00<br>Пт с 9:00 до 17:00</p>
+				<p class="text-norm bottom__text">sales@onelec.ru</p>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<a href="index.html"><p class="bottom__text text-opac">Главная</p></a>
+				<a href="supplies.html"><p class="bottom__text text-opac">Линия поставок</p></a>
+				<a href="about_us.html"><p class="bottom__text text-opac">О компании</p></a>
+				<a href="delivery.html"><p class="bottom__text text-opac">Доставка</p></a>
+				<a href="news.html"><p class="bottom__text text-opac">Новости</p></a>
+				<a href="license.html"><p class="bottom__text text-opac">Сертификаты</p></a>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-lg-2">
+				<p class="bottom__text-confid">Политика конфиденциальности</p>
+				<p class="bottom__text-social text-opac bottom__text">Мы в соц. сетях:</p>
+				<img src="img/bottom__social-img-1.png" alt="social-img" class="bottom__social-img">
+				<img src="img/bottom__social-img-2.png" alt="social-img" class="bottom__social-img">
+				<div class="bottom__social-img-inst flex-all-center">
+					<img src="img/bottom__social-img-3.png" alt="social-img">
+				</div>
+			</div>
+			<div class="bottom__item col-sm-6 col-md-4 col-xl-1 col-lg-2">
+				<div class="bottom__item-wrap">
+					<img src="img/bottom__comodo.png" alt="comodo" class="bottom__comodo-img">
+					<p class="bottom__text-small text-small bottom__text">Сделано<br>в веб-студии</p>
+					<img src="img/bottom__redbox.png" alt="redbox" class="bottom__redbox-img">
+				</div>
+			</div>
+		</div>
+		<img src="img/bottom-bg.png" alt="bottom_bg" class="section__bg bottom__bg z-index-1">
+		<div class="bottom__bg_mask z-index-2"></div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
